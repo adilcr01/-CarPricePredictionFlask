@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<head>
+<title>Used Car Price Prediction</title>
+<style type="text/css">
+    
+.text{
+    width: 400px;
+}
+
+
+</style>
+</head>
+<body >
+        <center class="head1"><h1>Fill up the details of your car</h1></center>
+
+
+<div class="form">
+    <form action='/predict' method='POST'>
+    <center>
+
+    Enter the Present Price of the car<br><br><input type="number" name="presentprice" id="presentprice" class="text"><br><br>
+    Enter the km driven by the car<br><br><input type="number" name="kmdriven" id="kmdriven" class="text"><br><br>
+    Enter the Year of Purchase of the car<br><br><input type="number" name="purchaseyear" id="purchaseyear" class="text" max="2021"><br><br>
+
+
+    Enter the Fuel Type of the car<br><br>
+<select id="fueltype" name="fueltype">
+  <option value="Petrol">Petrol</option>
+  <option value="Diesel">Diesel</option>
+  <option value="CNG">CNG</option>
+</select><br><br>
+
+Enter the Seller Type of the car<br><br>
+<select id="sellertype" name="sellertype">
+    <option value="Individual">Individual</option>
+    <option value="Dealer">Dealer</option>
+</select><br><br>
+
+Enter the Transmission Type of the car<br><br>
+<select id="transmissiontype" name="transmissiontype">
+    <option value="Manual">Manual</option>
+    <option value="Automatic">Automatic</option>
+</select><br><br>
+
+<button class="button">Predict</button>
+</center>
+</form>
+</div>
+
+
+</body>
+</html>
