@@ -10,11 +10,11 @@ Car Price Dataset https://www.kaggle.com/mdejazulhassan/vehicle-dataset-from-car
 
 ## Screenshot
 ##### Homepage
-![car price 1](https://user-images.githubusercontent.com/93968656/141476120-8beb00c4-0853-43d0-9a39-c724864fc257.png)
+![car price 1](https://user-images.githubusercontent.com/93968656/141478923-32d3b5bf-c4b7-406c-8d6e-c157596fd182.png)
 
 ##### Results
 
-![car price 2](https://user-images.githubusercontent.com/93968656/141476137-23717d3f-1412-4dff-a62a-fbe6aef1c292.png)
+![car price 2](https://user-images.githubusercontent.com/93968656/141478949-9858a012-4c5e-4873-986a-099d07000c53.png)
 
 ## Technologies Used
 
