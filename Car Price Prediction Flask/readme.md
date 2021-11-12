@@ -3,7 +3,7 @@
 This repository consists of files required for end to end implementation and deployment of Machine Learning Car Price Prediction web application created with Flask and deployed on the Heroku platform.
 
 ## Project Explanation
-The Car Price Prediction is a Streamlit web application which predicts used car prices based on given independent features like Year, Selling_Price, Present_Price, Kms_Driven, Fuel_Type, Seller_Type and Transmission. The dataset is available at Kaggle, and it's provided by cardekho.com.
+The Car Price Prediction is a Flask web application which predicts used car prices based on given independent features like Year, Selling_Price, Present_Price, Kms_Driven, Fuel_Type, Seller_Type and Transmission. The dataset is available at Kaggle, and it's provided by cardekho.com.
 
 ## Dataset used
 Car Price Dataset https://www.kaggle.com/mdejazulhassan/vehicle-dataset-from-cardekho/data
@@ -36,6 +36,4 @@ Car Price Dataset https://www.kaggle.com/mdejazulhassan/vehicle-dataset-from-car
 
 
 ## Link to the application
-Check out the live demo: https://car-price-streamlit.herokuapp.com/
-
-##### Note: You might expect delay in loading the website as the webframework used is Streamlit.
+Check out the live demo: https://car-price-flaskapp.herokuapp.com/
